@@ -1,0 +1,11 @@
+llama-index==0.13.3
+chromadb==1.0.20
+llama-index-vector-stores-chroma==0.5.2
+llama-index-embeddings-huggingface==0.6.0
+sentence-transformers==3.4.0
+chainlit==2.7.2
+pypdf==6.0.0
+pdfplumber==0.11.5
+faiss-cpu==1.12.0
+numpy==1.26.4
+torch==2.0.1
