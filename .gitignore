@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+
+# Virtual environments
+rag_chatbot/
+
+# Chroma / LlamaIndex storage
+chroma_db/
+storage/
+
+# HuggingFace / model caches
+.cache/
+.huggingface/
+transformers_cache/
+torch_cache/
+
+# System files
+.DS_Store
+Thumbs.db
