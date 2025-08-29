@@ -18,7 +18,7 @@ def generate_text(prompt: str, max_new_tokens: int = 150) -> str:
         prompt,
         max_new_tokens=max_new_tokens,
         do_sample=True,
-        temperature=0.7,
+        temperature=0.2,
         top_p=0.95
     )
     return outputs[0]["generated_text"]
