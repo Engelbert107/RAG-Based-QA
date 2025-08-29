@@ -1,7 +1,7 @@
 
 import torch
 from transformers import pipeline
-from helper import truncate_by_tokens
+# from helper import truncate_by_tokens
 
 # Text-generation pipeline using TinyLlama (CPU)
 pipe = pipeline(
