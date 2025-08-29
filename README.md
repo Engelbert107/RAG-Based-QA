@@ -1,1 +1,1 @@
-# RAG-Based-QA
+# RAG-Based Question Answering from PDF
