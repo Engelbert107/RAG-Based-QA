@@ -18,7 +18,7 @@ def rag_query(query: str, max_new_tokens: int = 256) -> str:
     # max_context_chars = 2000
     # context = context[:max_context_chars]
     
-    # Limit number of sentences to avoid too-long prompts
+    # Limit number of sentences 
     sentences = context.split(". ")  # simple sentence split
     max_sentences = 5
     context = ". ".join(sentences[:max_sentences])
