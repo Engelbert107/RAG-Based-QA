@@ -36,7 +36,7 @@ for pdf_path in pdf_files:
             # Combine columns in reading order
             combined_text = left_text + "\n" + right_text
             # Clean text
-            cleaned_text = clean_text(combined_text)
+            cleaned_text = clean_text(combined_text, for_embeddings=True)
             # Split into sentences
             sentences = sent_tokenize(cleaned_text)
             # Chunk by 3 sentences
