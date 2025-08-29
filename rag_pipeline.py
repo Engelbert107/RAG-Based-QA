@@ -1,7 +1,7 @@
 
 from retriever import retriever
 from generation import generate_text
-from helper import clean_text, truncate_by_tokens
+# from helper import clean_text, truncate_by_tokens
 
 def rag_query(query: str, max_new_tokens: int = 256) -> str:
     """
