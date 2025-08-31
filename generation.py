@@ -7,12 +7,12 @@ from transformers import pipeline
 pipe = pipeline(
     "text-generation",
     model="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-    device=-1,                  # -1 = always use CPU
+    device=-1,                   # -1 = always use CPU
     torch_dtype=torch.float32    # CPU-safe dtype
 )
 
 
-def generate_text(prompt: str, max_new_tokens: int = 256) -> str:
+def generate_text(prompt: str, max_new_tokens: int = 50) -> str:
     """
     Generate text from a given prompt using TinyLlama.
     """
