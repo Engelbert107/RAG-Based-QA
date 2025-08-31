@@ -67,4 +67,4 @@ vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
 index = VectorStoreIndex.from_documents(documents, embed_model=embed_model, vector_store=vector_store)
 index.storage_context.persist("storage")
 
-print("\nIndex built & persisted!\n")
+print("\nWell! Index built & persisted!\n")
