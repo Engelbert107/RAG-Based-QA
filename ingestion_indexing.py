@@ -22,7 +22,7 @@ pdf_files = glob.glob("data/*.pdf")
 documents = []
 
 # ----------------------------
-# Extract text and split into 3-sentence chunks
+# Extract text and split into n-sentence chunks
 # ----------------------------
 for pdf_path in pdf_files:
     with pdfplumber.open(pdf_path) as pdf:
