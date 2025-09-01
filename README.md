@@ -1,6 +1,6 @@
 # RAG-Based Question Answering from PDF
 
-This project allows users to ask questions directly about PDF documents and receive clear, relevant answers. It implements a Retrieval-Augmented Generation (RAG) pipeline for querying PDF documents in natural language. PDF text is extracted and preprocessed, then embedded into a ChromaDB vector store. At query time, relevant chunks are retrieved and combined with a lightweight LLM (TinyLlama) to generate accurate, context-aware answers.
+This project allows users to ask questions directly about PDF files and receive clear, relevant answers. It implements a Retrieval-Augmented Generation (RAG) pipeline: text is extracted and preprocessed from PDFs, embedded into a ChromaDB vector store, and at query time, relevant chunks are retrieved and combined with a lightweight LLM (TinyLlama) to generate accurate, context-aware responses.
 
 ## 🔄 How It Works
 
