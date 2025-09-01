@@ -1,6 +1,6 @@
 # RAG-Based Question Answering from PDF
 
-This project implements a Retrieval-Augmented Generation (RAG) pipeline for querying PDF documents in natural language. 
+This project implements a Retrieval-Augmented Generation (RAG) pipeline for querying PDF documents in natural language. PDF text is extracted and preprocessed, then embedded into a ChromaDB vector store. 
 
 ## 🔄 How It Works
 
