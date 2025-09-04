@@ -8,6 +8,10 @@ rag_chatbot/
 chroma_db/
 storage/
 
+# Chainlit
+.chainlit/
+chainlit.md
+
 # HuggingFace / model caches
 .cache/
 .huggingface/
