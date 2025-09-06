@@ -12,5 +12,6 @@ flowchart TD
     E[❓ User Query] --> F[🔎 Retrieve Relevant Chunks from ChromaDB]
     F --> G[🤖 TinyLlama LLM]
     D --> F
-    G --> H[✅ Context-Aware Answer]
+    G --> H[✅ Context-Aware Answer via Chainlit Interface]
+
 
