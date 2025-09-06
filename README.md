@@ -2,9 +2,11 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline for querying PDF documents in natural language, accessible via a conversational interface built with Chainlit. PDF text is extracted, cleaned, and embedded into a ChromaDB vector store. At query time, semantically relevant chunks are retrieved and passed to a lightweight LLM (TinyLlama), which generates accurate, context-aware answers grounded in the source documents.
 
+
 ## 🔄 How It Works
 
 The RAG pipeline processes PDF documents and serves answers via a Chainlit interface. The flow is illustrated below:
+
 
 ### Pipeline Flow
 
@@ -29,7 +31,22 @@ flowchart TD
 - Supports streaming responses
 
 
-### Example Interaction
+## 🤖 Why TinyLlama?
+
+We use TinyLlama (1.1B) as the language model because it is:
+- Lightweight and CPU-friendly → runs without requiring a GPU.
+- Efficient for prototyping and small-scale applications.
+- Fast enough for interactive chat through Chainlit.
+This choice was motivated by computer performance constraints. The design, however, is modular, so swapping in a larger model is straightforward if more compute is available.
+
+
+## ⚠️ Token Limits
+- By default, the system limits generated answers to 256 tokens (max_new_tokens=256).
+- This keeps responses concise and prevents overly long generations.
+- You can adjust this parameter in rag_query() or generate_stream() if you need longer answers.
+
+
+## 🎤 Example Interaction
 
 Below is an example of how the RAG-powered chatbot responds to questions about PDF documents:
 
