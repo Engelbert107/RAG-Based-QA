@@ -87,15 +87,19 @@ chainlit run rag_app.py -w
 
 ```bash
 .
-├─ data/               # PDF files
-├─ images/             # Example screenshots
-├─ rag_app.py          # Chainlit app
-├─ rag_pipeline.py     # RAG query logic
-├─ generation.py       # TinyLlama text generation
-├─ retriever.py        # Vector store retriever
-├─ helper.py           # Text cleaning, processing functions
-├─ storage/            # Persisted index
-├─ chroma_db/          # ChromaDB storage
+├─ data 
+|  ├─ RAGForLLM.pdf             
+├─ images
+|  ├─ Run.png
+|  ├─ Q1.png
+|  ├─ Q2.png          
+├─ rag_app.py          
+├─ rag_pipeline.py     
+├─ generation.py       
+├─ retriever.py        
+├─ helper.py          
+├─ storage/            
+├─ chroma_db/          
 └─ README.md```
 
 
