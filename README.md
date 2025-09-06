@@ -100,7 +100,8 @@ chainlit run rag_app.py -w
 ├─ helper.py          
 ├─ storage/            
 ├─ chroma_db/          
-└─ README.md```
+└─ README.md
+```
 
 
 
