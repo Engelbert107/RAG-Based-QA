@@ -4,6 +4,10 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline for quer
 
 ## 🔄 How It Works
 
+The RAG pipeline processes PDF documents and serves answers via a Chainlit interface. The flow is illustrated below:
+
+### Pipeline Flow
+
 ```mermaid
 flowchart TD
     A[📄 PDF Document] --> B[🔍 Text Extraction & Cleaning]
@@ -13,6 +17,7 @@ flowchart TD
     F --> G[🤖 TinyLlama LLM]
     D --> F
     G --> H[✅ Context-Aware Answer via Chainlit Interface]
+```
 
 ![](images/Run.png)
-<!-- ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png) -->
+## ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png)
