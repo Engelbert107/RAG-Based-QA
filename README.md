@@ -19,6 +19,15 @@ flowchart TD
     G --> H[✅ Context-Aware Answer via Chainlit Interface]
 ```
 
+### Example Interaction
+
+Below is an example of how the RAG-powered chatbot responds to questions about PDF documents:
+
 ![](images/Run.png)
+
+You can see how the assistant retrieves context from the documents and provides concise, accurate answers.
+
+This illustrates the streaming response and context-aware behavior of the model.
+
 ![](images/Q1.png)
 ![](images/Q2.png)
