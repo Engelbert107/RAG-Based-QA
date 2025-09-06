@@ -41,6 +41,7 @@ This choice was motivated by computer performance constraints. The design, howev
 
 
 ## ⚠️ Token Limits
+
 - By default, the system limits generated answers to 256 tokens (max_new_tokens=256).
 - This keeps responses concise and prevents overly long generations.
 - You can adjust this parameter in rag_query() or generate_stream() if you need longer answers.
