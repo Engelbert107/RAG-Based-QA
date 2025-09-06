@@ -45,6 +45,7 @@ This illustrates the streaming response and context-aware behavior of the model.
 
 ## ⚙️ Installation
 
+1. Clone the repository
 ```bash
 git clone https://github.com/Engelbert107/RAG-Based-QA.git
 ```
@@ -53,14 +54,23 @@ git clone https://github.com/Engelbert107/RAG-Based-QA.git
 cd RAG-Based-QA
 ```
 
+2. Create a virtual environment
 ```bash
 python -m venv venv
 ```
+3. Activate the virtual environment
 
+- On macOS/Linux:
 ```bash
 source venv/bin/activate
 ```
 
+- On Windows:
+```bash
+venv\Scripts\activate
+```
+
+4. Install your packages
 ```bash
 pip install -r requirements.txt
 ```
@@ -77,13 +87,21 @@ chainlit run rag_app.py -w
 
 .
 ├─ data/               # PDF files
-├─ images/             # Example screenshots
-├─ rag_app.py          # Chainlit app
-├─ rag_pipeline.py     # RAG query logic
-├─ generation.py       # TinyLlama text generation
-├─ retriever.py        # Vector store retriever
-├─ helper.py           # Text cleaning, processing functions
-├─ storage/            # Persisted index
-├─ chroma_db/          # ChromaDB storage
-└─ README.md
 
+├─ images/             # Example screenshots
+
+├─ rag_app.py          # Chainlit app
+
+├─ rag_pipeline.py     # RAG query logic
+
+├─ generation.py       # TinyLlama text generation
+
+├─ retriever.py        # Vector store retriever
+
+├─ helper.py           # Text cleaning, processing functions
+
+├─ storage/            # Persisted index
+
+├─ chroma_db/          # ChromaDB storage
+
+└─ README.md
