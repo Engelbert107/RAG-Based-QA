@@ -14,4 +14,5 @@ flowchart TD
     D --> F
     G --> H[✅ Context-Aware Answer via Chainlit Interface]
 
-
+![](images/Run.png)
+<!-- ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png) -->
