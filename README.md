@@ -87,12 +87,12 @@ chainlit run rag_app.py -w
 
 ```bash
 .
-├─ data 
-|  ├─ RAGForLLM.pdf             
+├─ data
+│  └─ RAGForLLM.pdf             
 ├─ images
-|  ├─ Run.png
-|  ├─ Q1.png
-|  ├─ Q2.png          
+│  ├─ Run.png
+│  ├─ Q1.png
+│  └─ Q2.png          
 ├─ rag_app.py          
 ├─ rag_pipeline.py     
 ├─ generation.py       
