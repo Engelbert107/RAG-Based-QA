@@ -85,23 +85,18 @@ chainlit run rag_app.py -w
 
 ## 🛠️ Project Structure
 
+```bash
 .
 ├─ data/               # PDF files
-
 ├─ images/             # Example screenshots
-
 ├─ rag_app.py          # Chainlit app
-
 ├─ rag_pipeline.py     # RAG query logic
-
 ├─ generation.py       # TinyLlama text generation
-
 ├─ retriever.py        # Vector store retriever
-
 ├─ helper.py           # Text cleaning, processing functions
-
 ├─ storage/            # Persisted index
-
 ├─ chroma_db/          # ChromaDB storage
+└─ README.md```
 
-└─ README.md
+
+
