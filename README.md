@@ -20,4 +20,5 @@ flowchart TD
 ```
 
 ![](images/Run.png)
-## ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png)
+![](images/Q1.png)
+![](images/Q2.png)
