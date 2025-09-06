@@ -37,6 +37,7 @@ We use TinyLlama (1.1B) as the language model because it is:
 - Lightweight and CPU-friendly → runs without requiring a GPU.
 - Efficient for prototyping and small-scale applications.
 - Fast enough for interactive chat through Chainlit.
+
 This choice was motivated by computer performance constraints. The design, however, is modular, so swapping in a larger model is straightforward if more compute is available.
 
 
