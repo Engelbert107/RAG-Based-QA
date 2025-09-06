@@ -46,11 +46,11 @@ This illustrates the streaming response and context-aware behavior of the model.
 ## ⚙️ Installation
 
 ```bash
-git clone <https://github.com/Engelbert107/RAG-Based-QA.git>
+git clone https://github.com/Engelbert107/RAG-Based-QA.git
 ```
 
 ```bash
-cd <RAG-Based-QA>
+cd RAG-Based-QA
 ```
 
 ```bash
