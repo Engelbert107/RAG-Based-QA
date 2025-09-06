@@ -19,6 +19,16 @@ flowchart TD
     G --> H[✅ Context-Aware Answer via Chainlit Interface]
 ```
 
+## 💻 Features
+
+- Query PDF documents in natural language
+- Retrieve semantically relevant chunks with RAG
+- Generate concise, context-aware answers using TinyLlama
+- Conversational interface with Chainlit
+- Lightweight setup with CPU-friendly LLM
+- Supports streaming responses
+
+
 ### Example Interaction
 
 Below is an example of how the RAG-powered chatbot responds to questions about PDF documents:
@@ -31,3 +41,43 @@ This illustrates the streaming response and context-aware behavior of the model.
 
 ![](images/Q1.png)
 ![](images/Q2.png)
+
+
+## ⚙️ Installation
+
+```git clone <https://github.com/Engelbert107/RAG-Based-QA.git>
+```
+
+```cd <RAG-Based-QA>
+```
+
+```python -m venv venv
+```
+
+```source venv/bin/activate
+```
+
+```pip install -r requirements.txt
+```
+
+
+## 🚀 Usage
+
+```chainlit run rag_app.py -w
+```
+
+
+## 🛠️ Project Structure
+
+.
+├─ data/               # PDF files
+├─ images/             # Example screenshots
+├─ rag_app.py          # Chainlit app
+├─ rag_pipeline.py     # RAG query logic
+├─ generation.py       # TinyLlama text generation
+├─ retriever.py        # Vector store retriever
+├─ helper.py           # Text cleaning, processing functions
+├─ storage/            # Persisted index
+├─ chroma_db/          # ChromaDB storage
+└─ README.md
+
