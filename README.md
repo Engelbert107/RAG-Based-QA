@@ -45,25 +45,31 @@ This illustrates the streaming response and context-aware behavior of the model.
 
 ## ⚙️ Installation
 
-```git clone <https://github.com/Engelbert107/RAG-Based-QA.git>
+```bash
+git clone <https://github.com/Engelbert107/RAG-Based-QA.git>
 ```
 
-```cd <RAG-Based-QA>
+```bash
+cd <RAG-Based-QA>
 ```
 
-```python -m venv venv
+```bash
+python -m venv venv
 ```
 
-```source venv/bin/activate
+```bash
+source venv/bin/activate
 ```
 
-```pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 ```
 
 
 ## 🚀 Usage
 
-```chainlit run rag_app.py -w
+```bash
+chainlit run rag_app.py -w
 ```
 
 
