@@ -131,5 +131,5 @@ This project includes the following open-access paper as a sample dataset:
 *Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, Meng Wang, Haofen Wang*  
 [arXiv link](https://arxiv.org/abs/2312.10997)
 
-The PDF version of this paper is provided under ``data/RAGForLLM.pdf` for demonstration purposes.
+The PDF version of this paper is provided under ``data/RAGForLLM.pdf`` for demonstration purposes.
 
