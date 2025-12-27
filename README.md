@@ -126,7 +126,7 @@ chainlit run rag_app.py -w
 ## Example Data
 
 This project includes the following open-access paper as a sample dataset:
-**Retrieval-Augmented Generation for Large Language Models: A Survey*  
+**Retrieval-Augmented Generation for Large Language Models: A Survey**  
 *Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, Meng Wang, Haofen Wang*  
 [arXiv link](https://arxiv.org/abs/2312.10997)
 
